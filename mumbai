@@ -6,3 +6,5 @@ chkconfig httpd on
 cd /var/www/html
 git clone https://git-scm.com/downloads
 service httpd restart
+THIS IS WEBSERVER B
+
