@@ -1,0 +1,31 @@
+
+👉 1. git init -> The git init command creates a new Git repository, which can be used to start a new project with Git. 
+👉 2. git remote add origin -> The `git remote add origin` command is used to add a remote repository to your local Git repository.
+👉 3. git add . -> The git add command adds a change in the working directory to the staging area.
+👉 4. git commit -m 'message' -> The git commit command is what you'll use to take all of the changes that have been made locally and push them up to a remote repository.
+👉 5. git push -> sends changes (commits) from a local repository to a remote repository
+👉 6. git push origin branch_name -> git push origin is a git command that pushes a local branch(es) to a remote repository (origin).
+👉 7. VIM editor edit -> Press Escape and press 'I' for edit
+👉 8. VIM editor save and exit -> Press Escape and enter wq (wq!).
+👉 9. git log -> The git log command displays committed snapshots.
+👉 10. git branch -> see the branches in your repo
+👉 11. git branch "branch_name" -> create new branch - it will create in local git repo
+👉 12. git push origin "branch_name" -> to push created branch from local to remote repo
+👉 13. it checkout -b "branch_name" -> Create new branch and switch to newly created branch
+👉 14. git checkout branch_name -> to switch to specific branch
+👉 15. git push origin --delete branch_name -> delete branch from the remote repo
+👉 16. git branch --delete branch_name -> delete branch from the local repo
+👉 17. git restore --staged <file_name> -> The "restore" command helps to unstage or even discard uncommitted local changes. - single file
+👉 18. git reset -> unstaging all files
+👉 19. git reset --hard -> unstaging and reset all changes from the working directory.
+👉 20. git rm -f < file_name> - remove from staging area and working directory
+👉 21. git rm --cached < file_name> - remove from staging area
+👉 22. git push --force - forcefully push to specific branch without checking any conflict
+👉 23. git push origin --delete <branch_name> -> delete the branch from the remote repo
+👉 24. git branch -D <branch_name> -> forcefully delete from the local branch
+👉 25. git pull origin master - pull code from the master if there is any merge conflict.
+👉 26. git branch -m <old_branch_name> <new_branch_name> -> rename of existing branch in git local repo
+👉 27. git push origin :<old_name> <new_name> -> rename branch in remote repo
+👉 28. git revert commit_ID -> The git revert command is used for undoing changes to a repository's commit history.
+👉 29. git push - push reverted changes in respected branch
+👉 30. git detached HEAD - In Git, the detached HEAD state occurs when the HEAD does not point to a branch, but instead points to a specific commit or the remote repository.
