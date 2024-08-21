@@ -1,1 +1,8 @@
 THIS IS MY WEBSERVER A
+#! /bin/bash
+yum install httpd git -y
+service httpd start
+chkconfig httpd on
+cd /var/www/html
+git clone https://git-scm.com/downloads
+service httpd restart
